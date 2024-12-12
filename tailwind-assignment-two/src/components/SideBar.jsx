@@ -11,8 +11,8 @@ const SideBar = () => {
       <div>
         <div className="mt-[10px] mb-[10px] pl-[15px] pr-[35px]">
           <div className="flex justify-between items-center">
-              <div className="flex items-center bg-cyan-900 text-zinc-100 w-32 h-8 rounded justify-center">
-                <PiMonitorPlayFill className="text-cyan-400" /> <span className="ml-1">Webinar.</span>gg
+              <div className="flex items-center bg-cyan-900 text-zinc-100 w-32 h-8 rounded-lg justify-center">
+                <PiMonitorPlayFill className="text-cyan-400" /> <span className="ml-1">Webinar.</span><span className="text-cyan-400">gg</span>
               </div>
               <div className="text-xl mt-[3px]">
                 <PiMonitorPlayFill />
