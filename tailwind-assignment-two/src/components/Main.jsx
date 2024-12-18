@@ -43,25 +43,22 @@ const Main = () => {
           </div>
           <div className="w-[250px] bg-slate-100 border border-l-1 border-indigo-400 rounded-lg flex flex-col items-center">
             <div className="mt-[40px] flex">
-              <div className="flex gap-[120px]">
-                <div className="border border-l-1 bg-slate-100  rounded border-indigo-400">
+              <div className="flex gap-[70px]">
+                <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
                   <RiCalendarScheduleFill />
                 </div>
 
-                <div>
+                <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
                   <IoMdAdd />
                 </div>
               </div>
             </div>
-            <div className="flex gap-[120px] mt-[50px]">
-              <div>
+            <div className="flex gap-[70px] mt-[50px]">
+              <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
                 <BsCollectionPlay />
               </div>
 
-              <div className="w-[15px]">
-                
-              </div>
-              
+              <div className=" w-[50px] h-[50px] flex justify-center items-center text-lg"></div>
             </div>
           </div>
         </div>
