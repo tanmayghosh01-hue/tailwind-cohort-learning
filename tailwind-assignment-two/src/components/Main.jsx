@@ -36,7 +36,7 @@ const Main = () => {
             <div className="absolute top-[-80px] left-0">
               <div>Monday 14, October</div>
               <div className="text-2xl flex">
-                <div className="font-semibold">Good Morning Onizuka</div>{" "}
+                <div className="font-semibold">Good Morning Onizuka</div>
                 <div className="text-3xl">👋</div>
               </div>
             </div>
@@ -44,18 +44,35 @@ const Main = () => {
           <div className="w-[250px] bg-slate-100 border border-l-1 border-indigo-400 rounded-lg flex flex-col items-center">
             <div className="mt-[40px] flex">
               <div className="flex gap-[70px]">
-                <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
-                  <RiCalendarScheduleFill />
+                <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg relative">
+                  <div>
+                    <RiCalendarScheduleFill />
+                  </div>
+                  
+                  <div className="absolute">
+                    Schedule a Webinar
+                  </div>
                 </div>
 
                 <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
-                  <IoMdAdd />
+                  <div>
+                    <IoMdAdd />
+                  </div>
+                  <div className="absolute">
+                    Join a Webinar
+                  </div>
                 </div>
               </div>
             </div>
             <div className="flex gap-[70px] mt-[50px]">
               <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
-                <BsCollectionPlay />
+                <div>
+                  <BsCollectionPlay />
+                </div>
+                <div className="absolute">
+                  Open Recordings
+                </div>
+                
               </div>
 
               <div className=" w-[50px] h-[50px] flex justify-center items-center text-lg"></div>
