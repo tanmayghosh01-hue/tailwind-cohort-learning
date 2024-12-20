@@ -43,36 +43,38 @@ const Main = () => {
           </div>
           <div className="w-[250px] bg-slate-100 border border-l-1 border-indigo-400 rounded-lg flex flex-col items-center">
             <div className="mt-[40px] flex">
-              <div className="flex gap-[70px]">
-                <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg relative">
-                  <div>
-                    <RiCalendarScheduleFill />
+              <div className="flex gap-[70px] relative">
+                <div className="relative">
+                  <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg ">
+                    <div>
+                      <RiCalendarScheduleFill />
+                    </div>
                   </div>
-                  
-                  <div className="absolute">
+                  <div className="absolute text-[11px] font-bold bottom-[-19px] left-[-22px] w-[120px]">
                     Schedule a Webinar
                   </div>
                 </div>
 
-                <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
-                  <div>
-                    <IoMdAdd />
+                <div className="relative">
+                  <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg ">
+                    <div>
+                      <IoMdAdd />
+                    </div>
                   </div>
-                  <div className="absolute">
+                  <div className="absolute text-[11px] font-bold w-[100px] bottom-[-18.5px] left-[-12px]">
                     Join a Webinar
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex gap-[70px] mt-[50px]">
-              <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg">
+              <div className="border bg-cyan-300  rounded border-indigo-400 w-[50px] h-[50px] flex justify-center items-center text-lg relative">
                 <div>
                   <BsCollectionPlay />
                 </div>
-                <div className="absolute">
+                <div className="absolute text-[11px] font-bold w-[100px] bottom-[-24px] left-[-18px]">
                   Open Recordings
                 </div>
-                
               </div>
 
               <div className=" w-[50px] h-[50px] flex justify-center items-center text-lg"></div>
